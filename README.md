@@ -166,22 +166,15 @@ From Client-1, open PowerShell and run ping 10.0.0.4
 
 ![image](https://github.com/user-attachments/assets/19d22fb5-ce6f-4032-9701-e1124827d1c9)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>
+Run ipconfig /all 
+</p>
+The output for the DNS settings should show DC-1’s private IP Address
+</p>
+<br />
 
 <p>
-Lorem ipsum dolor sit amet,
+Preparing AD Infrastucture in Azure, Complete
 </p>
 <br />
 
