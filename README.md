@@ -101,9 +101,17 @@ After VM is created, set Domain Controller’s NIC Private IP address to be stat
 ![image](https://github.com/user-attachments/assets/f239703e-8f60-47b8-beb4-68b03b476c5a)
 
 <p>
-Lorem ipsum dolor sit amet,
+Use Remote Desktop Protocol to Log into the DC-1 
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/91370c17-bafe-437f-85b9-8bf4dc2c338a)
+
+<p>
+Run > wf.msc
+</p>
+<br />
+
 
 
 
