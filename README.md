@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Preparing AD Infrastructure in Azure</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
@@ -20,10 +20,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1 Preparing AD Infrastucture in Azure
-- Step 2 Deploying Active Directory
-- Step 3 Creating Users with PowerShell
-- Step 4 Group Policy and Managing Accounts
+- Part 1 Setup Domain Controller in Azure
+- Part 2 Setup Client-1 in Azure
+- Part 3 Testing the Enviroment
 
 <h2>Deployment and Configuration Steps</h2>
 
