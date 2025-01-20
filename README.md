@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Part 2 Setup Client-1 in Azure
 - Part 3 Testing the Enviroment
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Part 1 Setup Domain Controller in Azure</h2>
 
 ![image](https://github.com/user-attachments/assets/4edcd31e-145d-418c-b085-c02b138e773f)
 
@@ -70,23 +70,6 @@ In Networking tab, Make sure the newly created Vnet is selected, then Create
 </p>
 <br />
 
-
-![image](https://github.com/user-attachments/assets/42174e2d-e08d-4681-ba37-e753b0a12c3a)
-
-<p>
-Create the Client VM (Windows 10) named “Client-1”
-</p>
-<br />
-
-
-![image](https://github.com/user-attachments/assets/7c2f2ea8-bfb9-47ef-bf1e-30c08bbb0b8a)
-
-<p>
-In Networking tab, Make sure the newly created Vnet is selected, then Create
-</p>
-<br />
-
-
 ![image](https://github.com/user-attachments/assets/a1927aca-558f-4f95-9946-b46b8de4b99f)
 
 ![image](https://github.com/user-attachments/assets/bd8a3094-9540-4703-a385-ee12e2ad1b51)
@@ -95,7 +78,6 @@ In Networking tab, Make sure the newly created Vnet is selected, then Create
 After VM is created, set Domain Controller’s NIC Private IP address to be static
 </p>
 <br />
-
 
 ![image](https://github.com/user-attachments/assets/f239703e-8f60-47b8-beb4-68b03b476c5a)
 
@@ -129,6 +111,26 @@ Disable the Domain, Private, Public Profile’s Firewall, then Apply
 </p>
 <br />
 
+
+
+
+<h2>Setup Client-1 in Azure</h2>
+
+![image](https://github.com/user-attachments/assets/42174e2d-e08d-4681-ba37-e753b0a12c3a)
+
+<p>
+Create the Client VM (Windows 10) named “Client-1”
+</p>
+<br />
+
+
+![image](https://github.com/user-attachments/assets/7c2f2ea8-bfb9-47ef-bf1e-30c08bbb0b8a)
+
+<p>
+In Networking tab, Make sure the newly created Vnet is selected, then Create
+</p>
+<br />
+
 ![image](https://github.com/user-attachments/assets/b7309316-747f-4ce2-a582-3e4a068ec14c)
 
 ![image](https://github.com/user-attachments/assets/34515651-a8a9-4de2-852d-51d7b11d448f)
@@ -144,6 +146,11 @@ Configure Client-1’s DNS settings to DC-1’s Private IP address
 From the Azure Portal, restart Client-1
 </p>
 <br />
+
+
+
+<h2>Testing the Enviroment</h2>
+
 
 ![image](https://github.com/user-attachments/assets/a5b142f7-276b-4581-8fc8-435542a0b005)
 
