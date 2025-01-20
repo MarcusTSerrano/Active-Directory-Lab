@@ -31,27 +31,80 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/user-attachments/assets/8b97b666-63bd-4068-a015-baaaf045da1d)
 
+<p>
+Create a Resource Group
+</p>
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/2268d063-3223-4e1a-a920-a7b17e896bb5)
 
-![image](https://github.com/user-attachments/assets/3ace198d-80ac-4f07-8a38-ccc933de2e91)
+<p>
+Create a Virtual Network and Subnet
+</p>
+<br />
 
 ![image](https://github.com/user-attachments/assets/a881922b-1b85-439a-acb1-54dce2cf4a74)
 
+<p>
+Create the Domain Controller VM (Windows Server 2022) named “DC-1” Size = Processing speed of VM
+</p>
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/071ce730-d228-4412-92dc-acf5f8ccd903)
+
+<p>
+- Username: Labuser1
+  </p>
+- Password: Labpassword1
+</p>
+<br />
+
 
 ![image](https://github.com/user-attachments/assets/d4e30e71-de6c-4b26-822d-81250469e3c4)
 
 ![image](https://github.com/user-attachments/assets/a6a84c56-ef1c-4d4f-8001-f4487b290495)
 
+<p>
+In Networking tab, Make sure the newly created Vnet is selected, then Create
+</p>
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/42174e2d-e08d-4681-ba37-e753b0a12c3a)
 
+<p>
+Create the Client VM (Windows 10) named “Client-1”
+</p>
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/7c2f2ea8-bfb9-47ef-bf1e-30c08bbb0b8a)
+
+<p>
+In Networking tab, Make sure the newly created Vnet is selected, then Create
+</p>
+<br />
+
 
 ![image](https://github.com/user-attachments/assets/a1927aca-558f-4f95-9946-b46b8de4b99f)
 
 ![image](https://github.com/user-attachments/assets/bd8a3094-9540-4703-a385-ee12e2ad1b51)
 
+<p>
+After VM is created, set Domain Controller’s NIC Private IP address to be static
+</p>
+<br />
+
+
 ![image](https://github.com/user-attachments/assets/f239703e-8f60-47b8-beb4-68b03b476c5a)
+
+<p>
+Lorem ipsum dolor sit amet,
+</p>
+<br />
+
 
 
 
@@ -72,3 +125,4 @@ This tutorial outlines the implementation of on-premises Active Directory within
 Lorem ipsum dolor sit amet,
 </p>
 <br />
+
